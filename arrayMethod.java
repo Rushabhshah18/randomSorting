@@ -35,7 +35,7 @@ public class arrayMethod {
 				min=a[i];
 			}
 			if(max < a[i]) {
-				max=a[i];
+				max=a[i]; 
 			}
 		}
 		System.out.println("Minimum:"+min+" Maximum:"+max+" Sum:"+sum);
