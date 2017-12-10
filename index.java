@@ -5,21 +5,28 @@ import tutorProject.*;
 public class index extends arrayMethod {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		getRandoms r=new getRandoms();
+		// Generating random values and passing it to methids
+		
+		// creating the object of the other class
 		arrayMethod s=new arrayMethod();
-		index in = new index();
+		
+		// Creating a Scanner object
 		Scanner input = new Scanner(System.in);
-		//int size = input.nextInt();
+
+		//Generating random values
 		int[] a = new int[(int) (Math.random()*999)];
-		System.out.println(a.length);
+		
+		// printing the length of the array
+		System.out.println("Size of the array is:"+a.length);
 		for (int i = 0; i < a.length; i++) {
+			//Storing values in integer array
 			a[i] = (int)(Math.random()*999);
 					//input.nextInt();
 		}
+		//Calling methods from other class
 		s.sortArray(a);
 		s.arrayMethod(a);
-		//r.sortArray(a);
+		
 	}
 
 }
