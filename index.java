@@ -23,9 +23,12 @@ public class index extends arrayMethod {
 			a[i] = (int)(Math.random()*999);
 					//input.nextInt();
 		}
-		//Calling methods from other class
+			
+		//to sort the array
 		s.sortArray(a);
-		s.arrayMethod(a);
+		
+		//to find the minimum and maximum of the array
+		s.minmax(a);
 		
 	}
 
