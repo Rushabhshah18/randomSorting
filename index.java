@@ -24,7 +24,7 @@ public class index extends arrayMethod {
 					//input.nextInt();
 		}
 			
-		//to sort the array
+		//to sort the array 
 		s.sortArray(a);
 		
 		//to find the minimum and maximum of the array
